@@ -1,0 +1,35 @@
+{
+  "path": "sim_gleam",
+
+  "sim":
+  {
+    "telescope":
+    {
+      "path": "/BIGDATA/ac_shao_tan_1/OSKAR/OSKAR_CASA/ska1_low.tm",
+      "lon_deg": 21.442909,
+      "lat_deg": -30.739475
+    },
+    "observation":
+    {
+      "ra_deg": 199.611110,
+      "dec_deg": -46.000212,
+      "freq_hz": [100.0e6, 400.0e6],
+      "channel_bw_hz": 1.0,
+      "start_time_mjd": 57086.113194,
+      "obs_length": 0.05,
+      "num_times": [100]
+    }
+  },
+
+  "imaging":
+  {
+    "overwrite": true,
+    "weighting": "uniform",
+    "column": "DATA",
+    "size": [512, 512],
+    "fov_deg": [3, 4],
+    "ra_deg": 199.611110,
+    "dec_deg": -45.000212,
+    "w_planes": 0
+  }
+}
